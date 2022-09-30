@@ -14,7 +14,7 @@ main()
     cin >> num1 >> num2; 
   
     // Switch statement begins 
-    switch (op) { 
+    switch (o) { 
           
         // If user enter +  
         case '+': 
