@@ -21,7 +21,7 @@ struct ChessBoard{
         Pos(){x=-1;y=-1;}
     };
 
-    map<Pos,Piece> white_pieces, black_pieces;
+    map<Pos,Piece> wite_pieces, black_pieces;
     map<Pos,Piece> & moverPieces(){ return turn == Turn::white ? white_pieces : black_pieces; }
     map<Pos,Piece> & opponentPieces(){ return turn == Turn::white ? black_pieces : white_pieces; }
 
